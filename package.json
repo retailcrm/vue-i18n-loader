@@ -29,6 +29,7 @@
     "jsdom": "^16.7.0",
     "json5": "^2.2.0",
     "memory-fs": "^0.5.0",
+    "standard-version": "^9.3.2",
     "vue": "^2.6.14",
     "vue-i18n": "^8.26.7",
     "vue-loader": "^15.9.8",
@@ -37,6 +38,10 @@
     "webpack-sources": "^1.4.1"
   },
   "scripts": {
-    "test": "NODE_ENV=test jest --config ./jest.conf.js"
+    "test": "NODE_ENV=test jest --config ./jest.conf.js",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   }
 }
