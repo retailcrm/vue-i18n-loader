@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Webpack loader for vue i18n custom block",
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/loader.js",
   "author": "RetailDriverLLC <integration@retailcrm.ru>",
   "repository": {
     "type": "git",
