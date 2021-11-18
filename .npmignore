@@ -1,0 +1,5 @@
+.gitignore
+.idea
+.npmignore
+jest.config.js
+/tests
