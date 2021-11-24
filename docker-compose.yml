@@ -1,0 +1,8 @@
+version: '3.6'
+services:
+  node:
+    image: node:12-alpine
+    user: node
+    volumes:
+      - ./:/var/www/vue-i18n-loader
+    working_dir: /var/www/vue-i18n-loader
